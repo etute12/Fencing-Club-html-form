@@ -1,0 +1,58 @@
+body {
+    font-family: 'Black Ops One', cursive;
+    color: white;
+    background-image: url(fencingpp.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+img {
+width: 200px;
+height: 200px;
+margin-left: 100px;
+border-radius: 100px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: black;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+label {
+    display: block;
+    margin: 10px auto;
+}
+
+input[type="text"], input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover {
+    background: black;
+    color: white;
+}
